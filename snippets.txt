@@ -1,0 +1,1 @@
+for file in `find observations -name real.tsv`; do RM-tools/RMtools_1D/do_RMsynth_1D.py -l 2000 -o 8 $file; done
